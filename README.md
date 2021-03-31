@@ -18,3 +18,9 @@
 
 В качестве тренировочного датасета был использова датасет по ссылке: https://www.kaggle.com/mikhailpustovalov/autoru-all-used-car-offers-as-of-17032021
 
+В качестве моделей были использованы: linear regression, ridge regression, randomforestregressor, catboost, DecisionTreeRegressor и BaggingRegressor
+Лучше всего сработали BaggingRegressor и randomforestregressor
+
+В датасет было добавлено порядка 70 новых признаков, проведена очистка и предобработка данных
+
+Что можно сделать лучше: подучить парсинг, была проблема со сбором данных, при попытки их выгрузить ломалась кодировка.
